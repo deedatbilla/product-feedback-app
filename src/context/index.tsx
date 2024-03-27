@@ -5,10 +5,10 @@ import React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
 const theme = extendTheme({
-  fonts: {
-    heading: `'Jost Variable', sans-serif`,
-    body: `'Jost Variable', sans-serif`,
-  },
+  // fonts: {
+  //   heading: `'Jost Variable', sans-serif`,
+  //   body: `'Jost Variable', sans-serif`,
+  // },
   components: {
     Button: {
       baseStyle: {

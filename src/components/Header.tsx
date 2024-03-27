@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import { Bulb } from "../../public/icons";
+import { Bulb, ChevronDown } from "../../public/icons";
 import { Text } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
 import { Plus } from "react-iconly";
@@ -29,6 +29,7 @@ function Header() {
           <Text fontWeight="bold" fontSize="14px" color="white">
             Most Upvotes
           </Text>
+          <ChevronDown width={10} />
         </Box>
       </Box>
       {/* <Plus /> */}
